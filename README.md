@@ -8,19 +8,19 @@
 
 #### Clone with SSH
 
-```shell
+```ruby
 git@gitlab.com:mistd/matchingsite/sumlight-lab.git
 ```
 or
 
 #### Clone with HTTPS
-```shell
+```ruby
 https://gitlab.com/mistd/matchingsite/sumlight-lab.git
 ```
 
 ### Check your Ruby version
 
-```shell
+```ruby
 ruby -v
 ```
 
@@ -29,7 +29,7 @@ The ouput should start with something like `ruby 2.7.0`
 If not, installing Ruby with Using rbenv:
 
 Run command
-```shell
+```ruby
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
@@ -47,7 +47,7 @@ ruby -v
 ### Check your Rails version
 
 
-```shell
+```ruby
 rails -v
 ```
 
@@ -56,7 +56,7 @@ The ouput should start with something like `rails 6.0.3.4`
 If not, installing Ruby with Using rbenv:
 
 Run command
-```shell
+```ruby
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
  
@@ -68,7 +68,7 @@ rails -v
 ### Install dependencies
 
 Run command
-```shell
+```ruby
 bundle && yarn
 bundle install
 yarn install
@@ -76,21 +76,21 @@ yarn install
 
 ### Initialize the database
 
-```shell
+```ruby
 rails db:create 
 rails db:migrate 
 rails db:seed
 ```
 or
 
-```shell
+```ruby
 rails db:migrate:reset
 rails db:seed
 ```
 
 ## Serve
 
-```shell
+```ruby
 rails s
 rails server 
 ```
